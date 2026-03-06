@@ -79,7 +79,12 @@ A **"Pay Securely"** button simulates payment and redirects to the success page.
 Displays a confirmation message indicating that the order has been successfully placed.
 
 ---
+## Server-Side Rendering (SSR)
 
+- Cart data is fetched using Next.js Server Components.
+- This ensures that cart data is rendered on the server before the page is sent to the browser.
+
+---
 ## State Management
 
 The application uses the **React Context API** to maintain checkout state across pages.
