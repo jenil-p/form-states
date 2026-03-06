@@ -1,7 +1,7 @@
 import CartPageClient from "@/components/CartPageClient"
 
 async function getCartData() {
-  const res = await fetch("http://localhost:3000/api/cart", {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/cart`, {
     cache: "no-store"
   })
 
